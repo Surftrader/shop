@@ -13,11 +13,20 @@
         <input type="submit" value="Search" />
     </form:form>
 
-    <ul>
+<br>
+    <table border="1" cellpadding="7" cellspacing="1">
+        <tr>
+            <td>id</td>
+            <td>title</td>
+            <td>description</td>
+        </tr>
     <c:forEach items="${products}" var="prod">
-        <li>${prod.title}</li>
+        <tr>
+            <td>${prod.id}</td>
+            <td>${prod.title}</td>
+            <td>${prod.description}</td>
+        </tr>
     </c:forEach>
-    </ul>
-
+    </table>
 </body>
 </html>

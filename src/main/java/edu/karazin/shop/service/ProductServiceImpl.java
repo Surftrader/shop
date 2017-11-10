@@ -13,11 +13,11 @@ public class ProductServiceImpl implements ProductService {
 
 	// TODO: Move data to Data Base
 	private static final List<Product> PRODUCTS = Arrays.asList(
-			new Product(1L, "apple", ""),
-			new Product(2L, "apricot", ""),
-			new Product(3L, "banana", ""),
-			new Product(4L, "grape", ""),
-			new Product(5L, "cherry", "")
+			new Product(1L, "apple", "fruit"),
+			new Product(2L, "apricot", "fruit"),
+			new Product(3L, "banana", "fruit"),
+			new Product(4L, "grape", "berry"),
+			new Product(5L, "cherry", "berry")
 	);
 
 	@Override

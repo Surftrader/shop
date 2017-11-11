@@ -34,5 +34,32 @@
     </c:forEach>
     </table>
     <br>
+    <form name="adding" modelAttribute="addForm">
+        <table align="center" cellpadding="7" cellspacing="1">
+            <caption><b>Adding products</b></caption>
+            <tr>
+                <td align="right">title</td>
+                <td><input type="text" name="title"></td>
+            </tr>
+            <tr>
+                <td align="right">description</td>
+                <td><input type="text" name="description"></td>
+            </tr>
+            <tr>
+                <td align="right">image url</td>
+                <td><input type="text" name="image"></td>
+            </tr>
+            <tr>
+                <td align="right">cost</td>
+                <td><input type="text" name="cost"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td align="right"><input type="reset" value="Cancel"><input type="submit" value="Add"></td>
+            </tr>
+        </table>
+        <br>
+    </form>
+
 </body>
 </html>
